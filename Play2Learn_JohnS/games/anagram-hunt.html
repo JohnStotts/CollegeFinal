@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anagram Scramble</title>
+    <link rel="stylesheet" href="anagram-hunt.css">
+    <script src="https://kit.fontawesome.com/ab41ccaeaa.js" crossorigin="anonymous"></script>
+    <script src="anagram-hunt.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Play2Learn</h1>
+    </header>
+    <nav>
+        <a href="/index.html">Home</a>
+        <div class="dropdown">
+            <a class="dropbtn">Games</a>
+            <div class="dropdown-content">
+                <a href="anagram-hunt.html">Anagram Scramble</a>
+                <a href="math-facts.html">Math Shuffle</a>
+            </div>
+        </div>
+        <a href="/about.html">About</a>
+        <a href="/login.html">Login</a>
+    </nav>
+    <br>
+    <br>
+    <div class="container">
+        <h1>Anagram Scramble</h1>
+        <div>
+            <dl>
+                <dd>
+                    <em>Anagrams are words formed by rearranging the letters of another word,
+                    such as 'cinema' can be formed from 'iceman'.</em>
+                </dd>
+            </dl>
+        </div>
+        <ul id="instructions">
+            <li><strong>Select the word length and press the 'Start' button.</strong></li>
+            <li><strong>A word will appear with the number of anagrams it has.</strong></li>
+            <li><strong>Include that word and all you can think of!</strong></li>
+            <li><strong>Hurry! You have 30s per round.</strong></li>
+        </ul>
+        
+        <div id="anagram-game">
+            <label for="word-length">Select word length:</label>
+            <select id="word-length">
+                <option value="5">5 letters</option>
+                <option value="6">6 letters</option>
+                <option value="7">7 letters</option>
+                <option value="8">8 letters</option>
+            </select>
+            <button id="start-btn">Start</button>
+            <button id="submit-btn" style="display: none;">Submit</button>
+            <button id="replay-btn" style="display: none;">Replay</button>
+<br>
+        <div id="broken">
+            <a href="/contact-us.html">Not working right? Click here to let us know!</a>
+        </div>    
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="copyright">
+            <i class="fa-regular fa-copyright"></i> 2024 Play2Learn
+        </div>
+        <div class="fa-brands">
+            <a href="contact-us.html"><i class="fa-solid fa-square-envelope fa-2x"></i></a>
+            <a href="https://www.instagram.com/your_instagram"><i class="fa-brands fa-square-instagram fa-2x"></i></a>
+            <a href="https://twitter.com/your_twitter"><i class="fa-brands fa-twitter fa-2x"></i></a>
+            <a href="https://www.facebook.com/your_facebook"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
